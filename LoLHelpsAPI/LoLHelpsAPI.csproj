@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoLHelpsAPI.Models\LoLHelpsAPI.Models.csproj" />
+    <ProjectReference Include="..\LoLHelpsAPI.Repositories\LoLHelpsAPI.Repositories.csproj" />
   </ItemGroup>
 
 
