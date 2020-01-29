@@ -7,9 +7,11 @@ namespace LoLHelpsAPI.Models.Request
 {
     public class CampeoesResponse
     {
-        public string Tipo { get; set; }
-        public string Formato { get; set; }
-        public string Versao { get; set; }
-        public Data Data { get; set; }
+        public string Type { get; set; }
+        public string Format { get; set; }
+        public string Version { get; set; }
+        public IDictionary<string, Campeao> Data { get; set; }        
+
+
     }
 }

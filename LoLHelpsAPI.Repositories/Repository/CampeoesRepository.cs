@@ -1,4 +1,5 @@
-﻿using LoLHelpsAPI.Models.Request;
+﻿using LoLHelpsAPI.Models.Entities;
+using LoLHelpsAPI.Models.Request;
 using LoLHelpsAPI.Repositories.Contracts;
 using Newtonsoft.Json.Linq;
 using System;
@@ -28,13 +29,8 @@ namespace LoLHelpsAPI.Repositories.Repository
                         WriteIndented = true
                     };
 
-                    var jsonModel = JsonSerializer.Deserialize<object>(apiResponse, options);
-                    //var modelJson = JsonSerializer.Serialize(jsonModel, options);
-                    var part = jsonModel.ToString().Split("{");
-                    foreach (var p in part)
-                    {
-
-                    }
+                    var jsonModel = JsonSerializer.Deserialize<CampeoesResponse>(apiResponse, options);
+                    list.Add(jsonModel);
                 }
             }
             return list;

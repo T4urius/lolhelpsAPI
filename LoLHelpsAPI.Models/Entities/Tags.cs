@@ -6,6 +6,6 @@ namespace LoLHelpsAPI.Models.Entities
 {
     public class Tags
     {
-        public List<string> TipoLuta { get; set; }
+        public List<string> Type { get; set; }
     }
 }

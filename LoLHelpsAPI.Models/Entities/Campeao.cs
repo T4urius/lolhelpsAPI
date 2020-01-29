@@ -6,15 +6,16 @@ namespace LoLHelpsAPI.Models.Entities
 {
     public class Campeao
     {
-        public string Versao { get; set; }
+        public string Version { get; set; }
         public string Id { get; set; }
-        public string Chave { get; set; }
-        public string Nome { get; set; }
-        public string Titulo { get; set; }
+        public string Key { get; set; }
+        public string Name { get; set; }
+        public string Title { get; set; }
         public string Blurb { get; set; }
         public Info Info { get; set; }
-        public Tags Tags { get; set; }
-        public string Parttype { get; set; }
-        public Status Status { get; set; }
+        public Image Image { get; set; }
+        public List<string> Tags { get; set; }
+        public string Partype { get; set; }
+        public Status Stats { get; set; }
     }
 }

@@ -6,9 +6,9 @@ namespace LoLHelpsAPI.Models.Entities
 {
     public class Info
     {
-        public string Ataque { get; set; }
-        public string Defesa { get; set; }
-        public string Magica { get; set; }
-        public string Dificuldade { get; set; }
+        public long Attack { get; set; }
+        public long Defense { get; set; }
+        public long Magic { get; set; }
+        public long Difficulty { get; set; }
     }
 }

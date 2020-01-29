@@ -6,25 +6,25 @@ namespace LoLHelpsAPI.Models.Entities
 {
     public class Status
     {
-        public string HP { get; set; }
-        public string HpperLevel { get; set; }
-        public string MP { get; set; }
-        public string MpperLevel { get; set; }
-        public string Movespeed { get; set; }
-        public string Armor { get; set; }
-        public string ArmorPerLevel { get; set; }
-        public string SpellBlock { get; set; }
-        public string SpellBlockPerLevel { get; set; }
-        public string AttackRange { get; set; }
-        public string HpRegen { get; set; }
-        public string HpRegenPerLevel { get; set; }
-        public string MpRegen { get; set; }
-        public string MpRegenPerLevel { get; set; }
-        public string Crit { get; set; }
-        public string CritPerLevel { get; set; }
-        public string AttackDamage { get; set; }
-        public string AttackDamagePerLevel { get; set; }
-        public string AttackSpeedPerLevel { get; set; }
-        public string AttackSpeed { get; set; }
+        public decimal HP { get; set; }
+        public decimal Hpperlevel { get; set; }
+        public decimal MP { get; set; }
+        public decimal Mpperlevel { get; set; }
+        public decimal Movespeed { get; set; }
+        public decimal Armor { get; set; }
+        public decimal Armorperlevel { get; set; }
+        public decimal Spellblock { get; set; }
+        public decimal Spellblockperlevel { get; set; }
+        public long Attackrange { get; set; }
+        public decimal Hpregen { get; set; }
+        public decimal Hpregenperlevel { get; set; }
+        public decimal Mpregen { get; set; }
+        public decimal Mpregenperlevel { get; set; }
+        public decimal Crit { get; set; }
+        public decimal Critperlevel { get; set; }
+        public decimal Attackdamage { get; set; }
+        public decimal Attackdamageperlevel { get; set; }
+        public decimal Attackspeedperlevel { get; set; }
+        public decimal Attackspeed { get; set; }
     }
 }
